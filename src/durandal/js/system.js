@@ -43,11 +43,11 @@ define(['require', 'jquery'], function(require, $) {
     // a permanent change. To view the status of this request, visit:
     // http://bugs.dojotoolkit.org/ticket/16727
 
-    if (require.on) {
+    /*if (require.on) {
         require.on("moduleLoaded", function(module, mid) {
             system.setModuleId(module, mid);
         });
-    }
+    }*/
 
     // callback for require.js loader
     if (typeof requirejs !== 'undefined') {
